@@ -21,13 +21,8 @@ public class Conditions : MonoBehaviour
 
     private float time;
 
-    private int CTry;
+    public GameObject button;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -38,7 +33,7 @@ public class Conditions : MonoBehaviour
         }
         else
         {
-            //Debug.Log("conditions not completed");
+            Debug.Log("conditions not completed");
         }
 
         if (Input.GetKey(KeyCode.Space))
@@ -53,7 +48,7 @@ public class Conditions : MonoBehaviour
         if (time >= 3)
         {
             variableB = true;
-            //Debug.Log("Variable B true");
+            Debug.Log("Variable B true");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -79,18 +74,18 @@ public class Conditions : MonoBehaviour
         if (numberOne && numberTwo && numberThree && numberFour)
         {
             variableC = true;
-            //Debug.Log("Variable C true");
+            Debug.Log("Variable C true");
+        }
+
+        if (button.activeInHierarchy == false)
+        {
+            Debug.Log("Variable D true");
+            variableD = true;
         }
 
         RandomNumbers();
-        ButtonPressed();
     }
 
-    public void ButtonPressed()
-    {
-        variableD = true;
-        Debug.Log("Variable D true");
-    }
 
     public void RandomNumbers()
     {
@@ -107,7 +102,7 @@ public class Conditions : MonoBehaviour
         if (greaterFive >= 4)
         {
             variableA = true;
-            //Debug.Log("Variable A true");
+            Debug.Log("Variable A true");
         }
     }
 
