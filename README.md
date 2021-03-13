@@ -1,8 +1,7 @@
-# Template2D-Unity202015f1
+# conditions pklacher
 
 ### Project description: 
-Introduction/Project summary 
-
+Project to improve skills on conditions.
 ### Development platform: 
 Winwows 10, Unity Version 2020.1.5f1, Visual Studio 2019
 
@@ -13,7 +12,7 @@ WebGL, reference resolution 600x960
 Screenshots (concept and experience), Video
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+none
 
 ### Third party material: 
 none
