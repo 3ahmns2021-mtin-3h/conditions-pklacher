@@ -9,7 +9,9 @@ Winwows 10, Unity Version 2020.1.5f1, Visual Studio 2019
 WebGL, reference resolution 600x960
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+<div>
+<img src="./Screenshots/Screen.JPG" width="300">
+</div>
 
 ### Necessary setup/execution steps: 
 none
@@ -23,5 +25,11 @@ incl. progress in percent
 ### Limitations: 
 
 ### Lessons Learned: 
+<ul>
+  <li> Check if 4 numbers are grater than 5</li>
+  <li> Check if key is pressed for a specific time </li>
+  <li> Check if specific keys are pressed </li>
+  <li> Check if GameObject is active </li>
+</ul>  
 
 Copyright by Pia Lacher
