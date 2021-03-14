@@ -20,7 +20,7 @@ none
 none
 
 ### Project state: 
-incl. progress in percent
+Finished
 
 ### Limitations: 
 
