@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Conditions : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Conditions : MonoBehaviour
     private bool variableC = false;
     //numbers 1-4 pressed
     private bool variableD = false;
-    //
+    //Button pressed
 
     private bool numberOne = false;
     private bool numberTwo = false;
@@ -77,15 +78,15 @@ public class Conditions : MonoBehaviour
             Debug.Log("Variable C true");
         }
 
-        if (button.activeInHierarchy == false)
-        {
-            Debug.Log("Variable D true");
-            variableD = true;
-        }
 
         RandomNumbers();
     }
 
+    public void PressButton()
+    {
+        Debug.Log("Variable D true");
+        variableD = true;
+    }
 
     public void RandomNumbers()
     {
